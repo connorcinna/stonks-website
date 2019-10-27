@@ -41,7 +41,7 @@ for idx, _ in datasets[0].iterrows():
         row = data.loc[idx]
         if not pd.isnull(row['average']):        
             plt.suptitle(assets[ind] + ' Stock on ' + date.strftime('%m/%d/%Y'))
-            plt.xlabel('Time (Minute)')
+            plt.xlabel('Minutes from Market Open')
             plt.ylabel('Price (Dollars)')
             y[ind].append(row['average'])
             x[ind].append(count[ind])
