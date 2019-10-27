@@ -12,7 +12,7 @@ while(1):
         start_time = time.time() #keep tracks of how long this iteration is taking
         # Get json object with the intraday data and another with  the call's metadata
         #data, meta_data = ts.get_intraday(symbol=company,interval='1min',outputsize='compact')
-        data, meta_data = ts.get_weekly(symbol=company,interval='60min',outputsize='compact')
+        data, meta_data = ts.get_intraday(symbol=company,interval='60min',outputsize='compact')
         #data is a dictionary
         plt.figure()
         data['4. close'].plot()
