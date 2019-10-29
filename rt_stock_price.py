@@ -51,7 +51,7 @@ class Stonks(object):
                     y[ind].append(row['average'])
                     x[ind].append(count[ind])
 
-                    fpath = './stonksgraphs/%s.png'%assets[file_count]
+                    fpath = './media/%s.png'%assets[file_count]
                     print(fpath)
                     
                     x_mask = x[ind][index[ind] - 5: index[ind] + 5]
