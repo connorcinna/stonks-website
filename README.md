@@ -1,3 +1,3 @@
-# hack-gt6-stonks
+# stonks-website
 
-Visual representation of stocks in real time of different companies, viewable in Oculus VR, rendered in Unity
+Visual representation of stocks in real time of different companies, website written with Django, script written in Python using IEXFinance API.
